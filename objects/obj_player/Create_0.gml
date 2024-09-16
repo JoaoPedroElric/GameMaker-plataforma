@@ -14,6 +14,8 @@ acc = 0.3;
 dcc = 0.3;
 
 // pulo
+jump_max = 2;
+jump_count = jump_max;
 jump_height = 5;
 coyote_time_max = 6;
 coyote_time = 0;

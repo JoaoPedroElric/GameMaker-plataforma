@@ -20,7 +20,7 @@ function player_state_free() {
 		sprite_index = spr_player_idle;
 		move_spd = approach(move_spd, 0, dcc);
 	}
-	can_move = approach(can_move, 0, 0.3);
+	can_move = approach(can_move, 0, 0.5);
 
 	if(can_move <= 0) {
 		hspd = lengthdir_x(move_spd, move_dir);
@@ -33,8 +33,9 @@ function player_state_free() {
 	var ground = place_meeting(x, y + 1, obj_wall);
 	var wall = place_meeting(x + 1, y, obj_wall_jump) or place_meeting(x - 1, y, obj_wall_jump);
 	
-	if(wall) {
+	if(wall and !ground) {
 		if(vspd > 1){
+			jump_count = jump_max;
 			vspd = 1;
 		}
 		if(key_jump) {
@@ -45,8 +46,9 @@ function player_state_free() {
 			hspd -= 4 * x_scale;
 		}
 	}
-	
+	// tocar no chão
 	if(ground) {
+		jump_count = jump_max;
 		coyote_time = coyote_time_max;
 	}else {
 		coyote_time--;
@@ -56,8 +58,10 @@ function player_state_free() {
 				sprite_index = spr_player_fall;
 		}
 	}
-
-	if(key_jump and coyote_time > 0) {
+	
+	// pular
+	if(key_jump and coyote_time > 0 or key_jump and jump_count > 0) {
+		jump_count--;
 		coyote_time = 0;
 		vspd = 0;
 		vspd -= jump_height;
