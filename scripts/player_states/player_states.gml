@@ -1,15 +1,14 @@
+
 function player_state_free() {
 	
 	var key_left = keyboard_check(ord("A")) or gamepad_axis_value(global.gamepad,gp_axislh) < -0.25;
 	var key_right = keyboard_check(ord("D")) or gamepad_axis_value(global.gamepad,gp_axislh) > 0.25;
-	var key_jump = keyboard_check_pressed(ord("W")) or gamepad_button_check(global.gamepad,gp_face1);
-	var key_dash = keyboard_check_pressed(ord("E")) or gamepad_button_check(global.gamepad,gp_face3);
-
+	var key_jump = keyboard_check_pressed(ord("W")) or gamepad_button_check_pressed(global.gamepad,gp_face1);
+	var key_dash = keyboard_check_pressed(ord("E")) or gamepad_button_check(global.gamepad,gp_face4);
+	var key_attack = keyboard_check_pressed(ord("J")) or gamepad_button_check(global.gamepad,gp_face3);
+	
 	
 	var move = key_right - key_left != 0;
-
-	vspd += grv; // aplicando a gravidade
-	vspd = clamp(vspd, vspd_min, vspd_max); // velocidade maxima que a gravidade pode chegar
 
 	// quando estiver se movendo
 	if(move) {
@@ -68,20 +67,66 @@ function player_state_free() {
 	}
 	
 	if(key_dash and dash) {
-		hspd = 0;
-		vspd = 0;
+		
 		dash_time = 0;
 		dash = false;
 		alarm[0] = dash_delay;
-		state = state_player_dash;
+		state = player_state_dash;
+	}
+	
+	// atacando
+	if(key_attack and attack) {
+		image_index = 0;
+		attack_time = 0;
+		attack = false;
+		alarm[1] = attack_delay;
+		state = player_state_attack;
+		
+	}
+	
+	var collision_enemy = instance_place(x, y, obj_enemy_parente);
+	if(collision_enemy) {
+		hspd = 0;
+		vspd = 0;
+		vspd -= 6;
+		state = player_state_damage;	
 	}
 	
 }
 
-function state_player_dash() {
+// dando dash
+function player_state_dash() {
 	hspd = lengthdir_x(dash_force, move_dir);
 	dash_time = approach(dash_time, dash_distance, 1);
 	if(dash_time >= dash_distance) {
 		state = player_state_free;
 	}
+}
+
+// atacando
+function player_state_attack() {
+    hspd = 0;
+    vspd = 0;
+    sprite_index = spr_player_attack_1;
+    var sword_hitbox = noone;
+	attack_time = approach(attack_time, attack_delay,0.5);
+	
+	if(sword_hitbox == noone) {
+		if(x_scale == 1) { // Ataque para a direita
+			sword_hitbox = instance_create_layer(x, y, layer, obj_sword_hb);
+		} else { // Ataque para a esquerda
+			sword_hitbox = instance_create_layer(x - 25, y, layer, obj_sword_hb);
+		}
+	}
+
+	if(image_index >= image_number - 1) {  
+        state = player_state_free;
+	} 
+}
+
+
+function player_state_damage() {
+	sprite_index = spr_player_idle;
+	instance_destroy();
+	room_restart();
 }
