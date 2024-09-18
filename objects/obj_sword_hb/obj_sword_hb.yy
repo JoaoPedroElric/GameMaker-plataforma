@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_attack_hb",
-    "path":"sprites/spr_player_attack_hb/spr_player_attack_hb.yy",
+    "name":"spr_sword_hb",
+    "path":"sprites/spr_sword_hb/spr_sword_hb.yy",
   },
   "spriteMaskId":null,
   "visible":false,

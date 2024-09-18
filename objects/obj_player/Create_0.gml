@@ -23,7 +23,7 @@ dash_distance = 10;
 
 attack = true;
 attack_time = 0;  
-attack_delay = 20;  
+attack_delay = 15;  
 
 // estados do player
 state = player_state_free;

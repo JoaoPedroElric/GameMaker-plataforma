@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"spr_sword_hb","order":2,"path":"sprites/spr_sword_hb/spr_sword_hb.yy",},
+  ],
 }
