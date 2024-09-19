@@ -70,6 +70,8 @@
     {"name":"inst_B9C8754","path":"rooms/level_01/level_01.yy",},
     {"name":"inst_2F24912","path":"rooms/level_01/level_01.yy",},
     {"name":"inst_252E9EFB","path":"rooms/level_01/level_01.yy",},
+    {"name":"inst_3E0E7B5C","path":"rooms/level_01/level_01.yy",},
+    {"name":"inst_F2539C0","path":"rooms/level_01/level_01.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -83,6 +85,8 @@
         {"$GMRInstance":"v1","%Name":"inst_25F54E82","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25F54E82","objectId":{"name":"obj_inimigo_01","path":"objects/obj_inimigo_01/obj_inimigo_01.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":672.0,},
         {"$GMRInstance":"v1","%Name":"inst_623A733C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_623A733C","objectId":{"name":"obj_inimigo_01","path":"objects/obj_inimigo_01/obj_inimigo_01.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":448.0,},
         {"$GMRInstance":"v1","%Name":"inst_252E9EFB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_252E9EFB","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":672.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3E0E7B5C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E0E7B5C","objectId":{"name":"obj_moeda","path":"objects/obj_moeda/obj_moeda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":576.0,},
+        {"$GMRInstance":"v1","%Name":"inst_F2539C0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_F2539C0","objectId":{"name":"obj_moeda","path":"objects/obj_moeda/obj_moeda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":640.0,},
       ],"layers":[],"name":"player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"chao","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"chao","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":43,"TileCompressedData":[
           -786,-2147483648,1,0,-48,-2147483648,-6,0,-36,-2147483648,1,0,-4,-2147483648,1,0,-24,-2147483648,-35,

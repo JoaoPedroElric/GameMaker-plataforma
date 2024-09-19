@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_moeda","order":1,"path":"objects/obj_moeda/obj_moeda.yy",},
+    {"name":"spr_moeda","order":1,"path":"sprites/spr_moeda/spr_moeda.yy",},
     {"name":"spr_sword_hb","order":2,"path":"sprites/spr_sword_hb/spr_sword_hb.yy",},
   ],
 }

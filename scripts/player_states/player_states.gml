@@ -79,7 +79,7 @@ function player_state_free() {
 		image_index = 0;
 		attack_time = 0;
 		attack = false;
-		can_move = 3;
+		//can_move = 3;
 		alarm[1] = attack_delay;
 		state = player_state_attack;
 		
@@ -109,14 +109,12 @@ function player_state_attack() {
 	
     sprite_index = spr_player_attack_1;
     var sword_hitbox = noone;
-	attack_time = approach(attack_time, attack_delay,0.3);
+	attack_time = approach(attack_time, attack_delay,0.4);
 	
 	if(sword_hitbox == noone) {
 		if(x_scale == 1) { // Ataque para a direita
-			hspd = 1;
 			sword_hitbox = instance_create_layer(x + 8, y, layer, obj_sword_hb);
 		} else { // Ataque para a esquerda
-			hspd = -1;
 			sword_hitbox = instance_create_layer(x - 20, y, layer, obj_sword_hb);
 		}
 	}
@@ -125,7 +123,6 @@ function player_state_attack() {
         state = player_state_free;
 	} 
 }
-
 
 function player_state_damage() {
 	sprite_index = spr_player_idle;
