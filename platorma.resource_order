@@ -4,6 +4,8 @@
     {"name":"plataforma","order":2,"path":"folders/Objects/plataforma.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fnt_menu","order":1,"path":"fonts/fnt_menu/fnt_menu.yy",},
+    {"name":"obj_menu","order":5,"path":"objects/obj_menu/obj_menu.yy",},
     {"name":"obj_slope_right","order":1,"path":"objects/obj_slope_right/obj_slope_right.yy",},
     {"name":"obj_ui","order":4,"path":"objects/obj_ui/obj_ui.yy",},
     {"name":"obj_wall_jump","order":3,"path":"objects/obj_wall_jump/obj_wall_jump.yy",},
@@ -12,6 +14,7 @@
     {"name":"obj_wall_move_v","order":5,"path":"objects/obj_wall_move_v/obj_wall_move_v.yy",},
     {"name":"obj_wall","order":2,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"pbj_pickup_parent","order":1,"path":"objects/pbj_pickup_parent/pbj_pickup_parent.yy",},
+    {"name":"menu","order":1,"path":"rooms/menu/menu.yy",},
     {"name":"ui","order":1,"path":"scripts/ui/ui.yy",},
     {"name":"spr_level","order":1,"path":"sprites/spr_level/spr_level.yy",},
     {"name":"spr_moeda","order":1,"path":"sprites/spr_moeda/spr_moeda.yy",},
