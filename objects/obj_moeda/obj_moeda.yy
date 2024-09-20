@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
   "%Name":"obj_moeda",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_moeda",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"coletaveis",
+    "path":"folders/Objects/coletaveis.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"pbj_pickup_parent",
+    "path":"objects/pbj_pickup_parent/pbj_pickup_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

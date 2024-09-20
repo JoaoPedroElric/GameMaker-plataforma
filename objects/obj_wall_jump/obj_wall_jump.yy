@@ -6,8 +6,8 @@
   "name":"obj_wall_jump",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"plataforma",
+    "path":"folders/Objects/plataforma.yy",
   },
   "parentObjectId":{
     "name":"obj_wall",

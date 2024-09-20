@@ -85,7 +85,7 @@ function player_state_free() {
 		
 	}
 	
-	var collision_enemy = instance_place(x, y, obj_enemy_parente);
+	var collision_enemy = instance_place(x, y, obj_enemy_parent);
 	if(collision_enemy) {
 		hspd = 0;
 		vspd = 0;
@@ -106,7 +106,7 @@ function player_state_dash() {
 
 // atacando
 function player_state_attack() {
-	
+	hspd = 0;
     sprite_index = spr_player_attack_1;
     var sword_hitbox = noone;
 	attack_time = approach(attack_time, attack_delay,0.4);
@@ -127,5 +127,6 @@ function player_state_attack() {
 function player_state_damage() {
 	sprite_index = spr_player_idle;
 	instance_destroy();
+	global.moeda = 0;
 	room_restart();
 }
