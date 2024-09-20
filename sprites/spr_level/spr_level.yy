@@ -14,12 +14,12 @@
   "frames":[
     {"$GMSpriteFrame":"","%Name":"41c200e0-9044-431e-9ea1-d054c242f536","name":"41c200e0-9044-431e-9ea1-d054c242f536","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":0,
-  "gridY":0,
+  "gridX":32,
+  "gridY":32,
   "height":416,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e069dfee-a24b-4e42-9edf-bcb83b16bb0e","blendMode":0,"displayName":"default","isLocked":false,"name":"e069dfee-a24b-4e42-9edf-bcb83b16bb0e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9aa10998-f6a7-42a9-9ebf-ebf90959ea5f","blendMode":0,"displayName":"default","isLocked":false,"name":"9aa10998-f6a7-42a9-9ebf-ebf90959ea5f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_level",
   "nineSlice":null,
