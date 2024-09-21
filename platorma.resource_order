@@ -6,6 +6,7 @@
   "ResourceOrderSettings":[
     {"name":"fnt_menu","order":1,"path":"fonts/fnt_menu/fnt_menu.yy",},
     {"name":"obj_menu","order":5,"path":"objects/obj_menu/obj_menu.yy",},
+    {"name":"obj_one_way","order":7,"path":"objects/obj_one_way/obj_one_way.yy",},
     {"name":"obj_slope_right","order":1,"path":"objects/obj_slope_right/obj_slope_right.yy",},
     {"name":"obj_ui","order":4,"path":"objects/obj_ui/obj_ui.yy",},
     {"name":"obj_wall_jump","order":3,"path":"objects/obj_wall_jump/obj_wall_jump.yy",},
@@ -18,6 +19,7 @@
     {"name":"ui","order":1,"path":"scripts/ui/ui.yy",},
     {"name":"spr_level","order":1,"path":"sprites/spr_level/spr_level.yy",},
     {"name":"spr_moeda","order":1,"path":"sprites/spr_moeda/spr_moeda.yy",},
+    {"name":"spr_one_way","order":2,"path":"sprites/spr_one_way/spr_one_way.yy",},
     {"name":"spr_sword_hb","order":2,"path":"sprites/spr_sword_hb/spr_sword_hb.yy",},
   ],
 }

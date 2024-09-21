@@ -26,6 +26,9 @@ for(var i = 0; i < op_max; i++) {
 			if(index == 0) {
 				room_goto(rm_level_01);
 			}
+			else if(index == 1) {
+			// nada ainda
+			}
 			else if(index == 2) {
 				game_end();
 			}
