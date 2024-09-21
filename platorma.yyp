@@ -71,6 +71,7 @@
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
     {"id":{"name":"player_states","path":"scripts/player_states/player_states.yy",},},
     {"id":{"name":"ui","path":"scripts/ui/ui.yy",},},
+    {"id":{"name":"sh_flash_hit","path":"shaders/sh_flash_hit/sh_flash_hit.yy",},},
     {"id":{"name":"spr_inimigo_01","path":"sprites/spr_inimigo_01/spr_inimigo_01.yy",},},
     {"id":{"name":"spr_level","path":"sprites/spr_level/spr_level.yy",},},
     {"id":{"name":"spr_moeda","path":"sprites/spr_moeda/spr_moeda.yy",},},

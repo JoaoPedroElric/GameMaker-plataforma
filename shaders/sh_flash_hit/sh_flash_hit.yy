@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"sh_flash_hit",
+  "name":"sh_flash_hit",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

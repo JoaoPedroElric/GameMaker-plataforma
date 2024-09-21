@@ -25,5 +25,8 @@ attack = true;
 attack_time = 0;  
 attack_delay = 15;  
 
+invulnerable_time = 0; // Tempo de invulnerabilidade após receber dano
+invulnerable_max = 60; // Tempo máximo de invulnerabilidade (em frames)
+
 // estados do player
 state = player_state_free;
