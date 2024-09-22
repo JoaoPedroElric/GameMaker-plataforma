@@ -87,9 +87,6 @@ function player_state_free() {
 	
 	var collision_enemy = instance_place(x, y, obj_enemy_parent);
 	if(collision_enemy) {
-		hspd = 0;
-		vspd = 0;
-		vspd -= 4;
 		state = player_state_damage;	
 	}
 	
@@ -125,8 +122,8 @@ function player_state_attack() {
 }
 
 function player_state_damage() {
-	sprite_index = spr_player_idle;
-	
+	instance_destroy();
 	global.moeda = 0;
-	state = player_state_free;
+	room_restart();
+	
 }
