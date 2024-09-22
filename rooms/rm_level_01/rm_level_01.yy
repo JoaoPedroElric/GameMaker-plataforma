@@ -77,6 +77,8 @@
     {"name":"inst_379E8372","path":"rooms/rm_level_01/rm_level_01.yy",},
     {"name":"inst_6141AEF6","path":"rooms/rm_level_01/rm_level_01.yy",},
     {"name":"inst_2CD884A1","path":"rooms/rm_level_01/rm_level_01.yy",},
+    {"name":"inst_47D02494","path":"rooms/rm_level_01/rm_level_01.yy",},
+    {"name":"inst_180E01E1","path":"rooms/rm_level_01/rm_level_01.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -98,6 +100,8 @@
         {"$GMRInstance":"v1","%Name":"inst_379E8372","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_379E8372","objectId":{"name":"obj_moeda","path":"objects/obj_moeda/obj_moeda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":480.0,},
         {"$GMRInstance":"v1","%Name":"inst_6141AEF6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6141AEF6","objectId":{"name":"obj_moeda","path":"objects/obj_moeda/obj_moeda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":64.0,},
         {"$GMRInstance":"v1","%Name":"inst_2CD884A1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CD884A1","objectId":{"name":"obj_moeda","path":"objects/obj_moeda/obj_moeda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1312.0,"y":352.0,},
+        {"$GMRInstance":"v1","%Name":"inst_47D02494","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47D02494","objectId":{"name":"obj_moeda","path":"objects/obj_moeda/obj_moeda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":224.0,},
+        {"$GMRInstance":"v1","%Name":"inst_180E01E1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_180E01E1","objectId":{"name":"obj_moeda","path":"objects/obj_moeda/obj_moeda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":224.0,},
       ],"layers":[],"name":"player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"chao","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"chao","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":43,"TileCompressedData":[
           1,26,-15,59,1,27,-7,40,1,26,-18,59,1,41,-15,-2147483648,1,39,-7,40,1,41,-18,-2147483648,1,41,-15,-2147483648,
