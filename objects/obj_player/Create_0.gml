@@ -1,6 +1,6 @@
 event_inherited();
 
-hp = 3;
+id_dead = false;
 
 // movimentação
 can_move = 0;

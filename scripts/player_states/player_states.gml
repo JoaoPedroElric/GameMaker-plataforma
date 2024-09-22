@@ -122,7 +122,10 @@ function player_state_attack() {
 }
 
 function player_state_damage() {
-	instance_destroy();
+	sprite_index = spr_player_idle;
+	is_dead = true;
+	vspd = 0;
+	hspd = 0;
 	global.moeda = 0;
 	room_restart();
 	

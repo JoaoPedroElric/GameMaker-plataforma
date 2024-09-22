@@ -5,6 +5,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"fnt_menu","order":1,"path":"fonts/fnt_menu/fnt_menu.yy",},
+    {"name":"obj_game_over","order":6,"path":"objects/obj_game_over/obj_game_over.yy",},
     {"name":"obj_menu","order":5,"path":"objects/obj_menu/obj_menu.yy",},
     {"name":"obj_one_way","order":7,"path":"objects/obj_one_way/obj_one_way.yy",},
     {"name":"obj_slope_right","order":1,"path":"objects/obj_slope_right/obj_slope_right.yy",},
