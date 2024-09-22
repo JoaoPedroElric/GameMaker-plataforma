@@ -9,7 +9,7 @@ shake_time = 0;
 var new_width = 1920; 
 var new_height = 1080; 
 
-window_set_size( new_width * VIEW_SCALE, new_height * VIEW_SCALE);
+window_set_size( VIEW_WIDTH * VIEW_SCALE, VIEW_HEIGHT * VIEW_SCALE);
 surface_resize(application_surface,VIEW_WIDTH * VIEW_SCALE, VIEW_HEIGHT * VIEW_SCALE);
 display_set_gui_size(GUI_WIDTH,GUI_HEIGHT);
 alarm[0] = 1;

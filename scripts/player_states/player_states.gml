@@ -6,7 +6,11 @@ function player_state_free() {
 	var key_jump = keyboard_check_pressed(ord("W")) or gamepad_button_check_pressed(global.gamepad,gp_face1);
 	var key_dash = keyboard_check_pressed(ord("E")) or gamepad_button_check(global.gamepad,gp_face4);
 	var key_attack = keyboard_check_pressed(ord("J")) or gamepad_button_check(global.gamepad,gp_face3);
+	var key_pause = keyboard_check_pressed(ord("P"));
 	
+	if(key_pause){
+		room_goto(menu);
+	}
 	
 	var move = key_right - key_left != 0;
 

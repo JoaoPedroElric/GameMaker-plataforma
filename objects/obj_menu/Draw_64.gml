@@ -4,7 +4,7 @@ var gui_height = display_get_gui_height();
 
 var x1 = gui_width / 2;
 var y1 = gui_height / 2;
-var margin = 50;
+var margin = 20;
 
 // pegando os valores do mouse na gui
 var m_x = device_mouse_x_to_gui(0);
@@ -48,4 +48,5 @@ for(var i = 0; i < op_max; i++) {
 	draw_text(x1, y2, options[i]);	
 
 }
-	draw_set_font(-1);
+
+draw_set_font(-1);
