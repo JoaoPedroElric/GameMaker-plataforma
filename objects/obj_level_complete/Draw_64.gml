@@ -1,6 +1,6 @@
 draw_set_font(fnt_complete_lv);
-var gui_width = display_get_gui_width();
-var gui_height = display_get_gui_height();
+var gui_width = GUI_WIDTH;
+var gui_height = GUI_HEIGHT;
 var key_reset = keyboard_check_pressed(ord("R")) or gamepad_button_check_pressed(global.gamepad,gp_face1);
 
 
