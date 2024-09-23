@@ -20,6 +20,7 @@
     {"name":"pbj_pickup_parent","order":1,"path":"objects/pbj_pickup_parent/pbj_pickup_parent.yy",},
     {"name":"menu","order":1,"path":"rooms/menu/menu.yy",},
     {"name":"rm_level_01_c","order":2,"path":"rooms/rm_level_01_c/rm_level_01_c.yy",},
+    {"name":"rm_level_03","order":3,"path":"rooms/rm_level_03/rm_level_03.yy",},
     {"name":"ui","order":1,"path":"scripts/ui/ui.yy",},
     {"name":"spr_level","order":1,"path":"sprites/spr_level/spr_level.yy",},
     {"name":"spr_moeda","order":1,"path":"sprites/spr_moeda/spr_moeda.yy",},
