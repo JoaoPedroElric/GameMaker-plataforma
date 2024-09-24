@@ -22,7 +22,7 @@
     {"name":"inst_2B413CB7","path":"rooms/rm_level_01/rm_level_01.yy",},
     {"name":"inst_22B4E120","path":"rooms/rm_level_01/rm_level_01.yy",},
     {"name":"inst_D50604C","path":"rooms/rm_level_01/rm_level_01.yy",},
-    {"name":"inst_2D15FD74","path":"rooms/rm_level_01/rm_level_01.yy",},
+    {"name":"inst_579363CD","path":"rooms/rm_level_01/rm_level_01.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -34,8 +34,8 @@
       ],"layers":[],"name":"player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"coletaveis","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_D50604C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_D50604C","objectId":{"name":"obj_moeda","path":"objects/obj_moeda/obj_moeda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":352.0,},
-        {"$GMRInstance":"v1","%Name":"inst_2D15FD74","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D15FD74","objectId":{"name":"obj_next_level","path":"objects/obj_next_level/obj_next_level.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_next_level","path":"objects/obj_next_level/obj_next_level.yy",},"propertyId":{"name":"next_level","path":"objects/obj_next_level/obj_next_level.yy",},"resource":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_level",},
+        {"$GMRInstance":"v1","%Name":"inst_579363CD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_579363CD","objectId":{"name":"obj_next_level","path":"objects/obj_next_level/obj_next_level.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_next_level","path":"objects/obj_next_level/obj_next_level.yy",},"propertyId":{"name":"next_level","path":"objects/obj_next_level/obj_next_level.yy",},"resource":{"name":"rm_level_01","path":"rooms/rm_level_01/rm_level_01.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_level_02",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":352.0,},
       ],"layers":[],"name":"coletaveis","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"enemy","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
