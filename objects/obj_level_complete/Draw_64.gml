@@ -14,7 +14,7 @@ if(global.moeda == 8) {
 }
 
 if(key_reset) {
-	room_goto(rm_level_01);
+	room_goto(rm_level);
 }
 
 draw_set_font(-1);
