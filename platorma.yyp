@@ -71,6 +71,7 @@
     {"id":{"name":"rm_level_01","path":"rooms/rm_level_01/rm_level_01.yy",},},
     {"id":{"name":"rm_level_02","path":"rooms/rm_level_02/rm_level_02.yy",},},
     {"id":{"name":"rm_level_03","path":"rooms/rm_level_03/rm_level_03.yy",},},
+    {"id":{"name":"rm_level_04","path":"rooms/rm_level_04/rm_level_04.yy",},},
     {"id":{"name":"rm_level_06","path":"rooms/rm_level_06/rm_level_06.yy",},},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
@@ -105,8 +106,9 @@
     {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"roomId":{"name":"rm_level_01","path":"rooms/rm_level_01/rm_level_01.yy",},},
     {"roomId":{"name":"rm_level_02","path":"rooms/rm_level_02/rm_level_02.yy",},},
-    {"roomId":{"name":"rm_level_06","path":"rooms/rm_level_06/rm_level_06.yy",},},
     {"roomId":{"name":"rm_level_03","path":"rooms/rm_level_03/rm_level_03.yy",},},
+    {"roomId":{"name":"rm_level_04","path":"rooms/rm_level_04/rm_level_04.yy",},},
+    {"roomId":{"name":"rm_level_06","path":"rooms/rm_level_06/rm_level_06.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

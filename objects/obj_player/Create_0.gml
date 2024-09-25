@@ -6,8 +6,8 @@ id_dead = false;
 can_move = 0;
 move_spd = 0;
 move_speed_max = 3.0;
-acc = 0.3;
-dcc = 0.3;
+acc = 0.2;
+dcc = 0.2;
 
 // pulo
 jump_max = 2;
