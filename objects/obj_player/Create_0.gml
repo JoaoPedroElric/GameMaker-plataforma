@@ -23,6 +23,8 @@ dash_force = 9;
 dash_time = 0;
 dash_distance = 10;
 
+moedas_total = 0;
+
 attack = true;
 attack_time = 0;  
 attack_delay = 15;  

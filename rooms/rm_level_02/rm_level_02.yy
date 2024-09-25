@@ -54,7 +54,7 @@
           -26,-2147483648,2,39,41,-6,-2147483648,4,20,21,21,22,-8,-2147483648,1,20,-7,21,2,46,41,-5,-2147483648,
           5,20,46,40,40,41,-8,-2147483648,1,39,-8,40,1,45,-5,21,1,46,-3,40,1,41,-8,-2147483648,1,39,-18,40,1,41,
           -8,-2147483648,1,39,-18,40,1,41,-8,-2147483648,1,39,-18,40,1,41,-8,-2147483648,1,39,-18,40,1,41,-8,-2147483648,
-          1,39,-18,40,1,41,-8,-2147483648,1,39,-8,40,
+          1,39,-18,40,1,45,-8,21,1,46,-8,40,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tl_level","path":"tilesets/tl_level/tl_level.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"collisores","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_2AD83BD2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2AD83BD2","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":6.0,"x":0.0,"y":160.0,},
