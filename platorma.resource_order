@@ -6,6 +6,8 @@
   "ResourceOrderSettings":[
     {"name":"fnt_complete_lv","order":2,"path":"fonts/fnt_complete_lv/fnt_complete_lv.yy",},
     {"name":"fnt_menu","order":1,"path":"fonts/fnt_menu/fnt_menu.yy",},
+    {"name":"obj_espinhos","order":6,"path":"objects/obj_espinhos/obj_espinhos.yy",},
+    {"name":"obj_inimigo_02","order":7,"path":"objects/obj_inimigo_02/obj_inimigo_02.yy",},
     {"name":"obj_menu","order":5,"path":"objects/obj_menu/obj_menu.yy",},
     {"name":"obj_one_way","order":7,"path":"objects/obj_one_way/obj_one_way.yy",},
     {"name":"obj_slope_right","order":1,"path":"objects/obj_slope_right/obj_slope_right.yy",},
@@ -21,6 +23,8 @@
     {"name":"rm_level_02","order":5,"path":"rooms/rm_level_02/rm_level_02.yy",},
     {"name":"rm_level_03","order":3,"path":"rooms/rm_level_03/rm_level_03.yy",},
     {"name":"ui","order":1,"path":"scripts/ui/ui.yy",},
+    {"name":"spr_espinhos","order":1,"path":"sprites/spr_espinhos/spr_espinhos.yy",},
+    {"name":"spr_inimigo_02","order":2,"path":"sprites/spr_inimigo_02/spr_inimigo_02.yy",},
     {"name":"spr_level","order":1,"path":"sprites/spr_level/spr_level.yy",},
     {"name":"spr_moeda","order":1,"path":"sprites/spr_moeda/spr_moeda.yy",},
     {"name":"spr_one_way","order":2,"path":"sprites/spr_one_way/spr_one_way.yy",},

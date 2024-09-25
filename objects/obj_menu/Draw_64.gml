@@ -26,7 +26,7 @@ for(var i = 0; i < op_max; i++) {
 		index = i;
 		if(mouse_check_button_pressed(mb_left)) {
 			if(index == 0) {
-				room_goto(rm_level);
+				room_goto(rm_level_01);
 			}
 			else if(index == 1) {
 			// nada ainda
