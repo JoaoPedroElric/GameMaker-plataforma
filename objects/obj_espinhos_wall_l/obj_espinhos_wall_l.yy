@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_espinhos",
+  "%Name":"obj_espinhos_wall_l",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_espinhos",
+  "name":"obj_espinhos_wall_l",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_espinhos",
-    "path":"sprites/spr_espinhos/spr_espinhos.yy",
+    "name":"spr_espinhos_wall_l",
+    "path":"sprites/spr_espinhos_wall_l/spr_espinhos_wall_l.yy",
   },
   "spriteMaskId":null,
   "visible":true,

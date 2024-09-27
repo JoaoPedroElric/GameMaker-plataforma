@@ -40,14 +40,13 @@ for(var i = 0; i < op_max; i++) {
 	}
 
 	// teclado
-		if(index == i){
-			draw_set_color(c_red);		
-		}else {
-			draw_set_color(c_white);			
-		}
+	if(index == i){
+		draw_set_color(c_red);		
+	}else {
+		draw_set_color(c_white);			
+	}
 	
 	draw_text(x1, y2, options[i]);	
-
 }
 
 draw_set_font(-1);

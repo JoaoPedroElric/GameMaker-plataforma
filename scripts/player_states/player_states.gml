@@ -8,6 +8,10 @@ function player_state_free() {
 	var key_attack = keyboard_check_pressed(ord("J")) or gamepad_button_check(global.gamepad,gp_face3);
 	var key_pause = keyboard_check_pressed(ord("P"));
 	
+	if (y > room_height) {
+    room_restart();
+}
+	
 	if(key_pause){
 		room_goto(menu);
 	}
@@ -127,10 +131,12 @@ function player_state_attack() {
 
 function player_state_damage() {
 	
-	sprite_index = spr_player_idle;
-	is_dead = true;
-	vspd = 0;
-	hspd = 0;
-	global.moeda = 0;
+    sprite_index = spr_player_idle;
+    is_dead = true;
+    vspd = 0;
+    hspd = 0;
+    global.moeda = 0;
 	room_restart();
 }
+
+
