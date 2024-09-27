@@ -9,6 +9,7 @@ function player_state_free() {
 	var key_pause = keyboard_check_pressed(ord("P"));
 	
 	if (y > room_height) {
+		global.deads++;
     room_restart();
 }
 	
@@ -136,6 +137,7 @@ function player_state_damage() {
     vspd = 0;
     hspd = 0;
     global.moeda = 0;
+	global.deads++;
 	room_restart();
 }
 
