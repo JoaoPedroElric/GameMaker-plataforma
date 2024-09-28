@@ -1,6 +1,5 @@
 event_inherited();
 
-deads = 0;
 
 // movimentação
 can_move = 0;
@@ -28,6 +27,10 @@ moedas_total = 0;
 attack = true;
 attack_time = 0;  
 attack_delay = 15;  
+
+transicao = false;
+transicao_time = 0;
+transicao_d = 15;
 
 // estados do player
 state = player_state_free;
