@@ -10,7 +10,7 @@ function player_state_free() {
 	
 	if (y > room_height) {
 		global.deads++;
-		alarm[2] = 40;
+		alarm[2] = 50;
 		state = player_state_damage;
 }
 	
@@ -97,7 +97,7 @@ function player_state_free() {
 	
 	var collision_enemy = instance_place(x, y, obj_enemy_parent);
 	if(collision_enemy) {
-		alarm[2] = 40;
+		alarm[2] = 50;
 		state = player_state_damage;	
 	}
 	
@@ -138,7 +138,6 @@ function player_state_damage() {
     is_dead = true;
     vspd = 0;
     hspd = 0;
-    global.moeda = 0;
 	var layer_transicao = layer_create(-10000, "transicao");
 	layer_sequence_create("transicao", obj_player.x, obj_player.y, sq_transicao_in);
 	
