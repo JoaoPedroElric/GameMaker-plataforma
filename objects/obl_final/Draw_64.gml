@@ -18,3 +18,4 @@ if(global.deads == 0) {
 }else {
 	draw_text(x1, y1, dead);
 }
+draw_text(x1, y1 + margin, coletou);

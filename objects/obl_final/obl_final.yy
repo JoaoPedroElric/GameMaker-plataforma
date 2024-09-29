@@ -10,8 +10,8 @@
   "name":"obl_final",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"etc",
+    "path":"folders/Objects/etc.yy",
   },
   "parentObjectId":null,
   "persistent":false,

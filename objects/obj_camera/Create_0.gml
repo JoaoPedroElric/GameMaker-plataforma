@@ -1,5 +1,5 @@
 global.view_target = obj_player;
-window_set_fullscreen(false);
+window_set_fullscreen(true);
 
 x_to = noone;
 y_to = noone;

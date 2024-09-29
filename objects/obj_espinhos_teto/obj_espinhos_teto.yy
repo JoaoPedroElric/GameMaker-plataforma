@@ -8,8 +8,8 @@
   "name":"obj_espinhos_teto",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"espinhos",
+    "path":"folders/Objects/espinhos.yy",
   },
   "parentObjectId":{
     "name":"obj_enemy_parent",
