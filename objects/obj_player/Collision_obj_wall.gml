@@ -1,3 +1,3 @@
-instance_destroy();
-global.moedas = 0;
-room_restart();
+alarm[2] = 50;
+var layer_transicao = layer_create(-10000, "transicao");
+layer_sequence_create("transicao", obj_player.x, obj_player.y, sq_transicao_in);
