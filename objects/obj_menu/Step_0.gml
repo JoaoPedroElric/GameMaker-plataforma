@@ -18,6 +18,7 @@ if(key_menu_select) {
 	
 	if(index == 0) {
 		room_goto(rm_level_01);
+		global.sala++;
 	}
 	else if(index == 1) {
 	// nada ainda

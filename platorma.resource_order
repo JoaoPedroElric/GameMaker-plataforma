@@ -22,6 +22,7 @@
     {"name":"obj_player","order":5,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_slope_right","order":1,"path":"objects/obj_slope_right/obj_slope_right.yy",},
     {"name":"obj_sword_hb","order":1,"path":"objects/obj_sword_hb/obj_sword_hb.yy",},
+    {"name":"obj_tutorial","order":22,"path":"objects/obj_tutorial/obj_tutorial.yy",},
     {"name":"obj_ui","order":3,"path":"objects/obj_ui/obj_ui.yy",},
     {"name":"obj_wall_jump","order":3,"path":"objects/obj_wall_jump/obj_wall_jump.yy",},
     {"name":"obj_wall_move_h","order":4,"path":"objects/obj_wall_move_h/obj_wall_move_h.yy",},
@@ -53,5 +54,9 @@
     {"name":"spr_moeda","order":1,"path":"sprites/spr_moeda/spr_moeda.yy",},
     {"name":"spr_one_way","order":2,"path":"sprites/spr_one_way/spr_one_way.yy",},
     {"name":"spr_sword_hb","order":2,"path":"sprites/spr_sword_hb/spr_sword_hb.yy",},
+    {"name":"spr_tutorial_1_c","order":8,"path":"sprites/spr_tutorial_1_c/spr_tutorial_1_c.yy",},
+    {"name":"spr_tutorial_1","order":6,"path":"sprites/spr_tutorial_1/spr_tutorial_1.yy",},
+    {"name":"spr_tutorial_2_c","order":9,"path":"sprites/spr_tutorial_2_c/spr_tutorial_2_c.yy",},
+    {"name":"spr_tutorial_2","order":5,"path":"sprites/spr_tutorial_2/spr_tutorial_2.yy",},
   ],
 }
