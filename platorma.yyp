@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"platorma",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -36,13 +36,14 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"monogram.ttf","CopyToMask":-1,"filePath":"datafiles","name":"monogram.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"platorma",
   "resources":[
@@ -67,6 +68,7 @@
     {"id":{"name":"obj_slope_left","path":"objects/obj_slope_left/obj_slope_left.yy",},},
     {"id":{"name":"obj_slope_right","path":"objects/obj_slope_right/obj_slope_right.yy",},},
     {"id":{"name":"obj_sword_hb","path":"objects/obj_sword_hb/obj_sword_hb.yy",},},
+    {"id":{"name":"obj_tutorial_1","path":"objects/obj_tutorial_1/obj_tutorial_1.yy",},},
     {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},},
     {"id":{"name":"obj_ui","path":"objects/obj_ui/obj_ui.yy",},},
     {"id":{"name":"obj_wall_jump","path":"objects/obj_wall_jump/obj_wall_jump.yy",},},
@@ -133,10 +135,10 @@
     {"roomId":{"name":"rm_level_02","path":"rooms/rm_level_02/rm_level_02.yy",},},
     {"roomId":{"name":"rm_level_03","path":"rooms/rm_level_03/rm_level_03.yy",},},
     {"roomId":{"name":"rm_level_04","path":"rooms/rm_level_04/rm_level_04.yy",},},
-    {"roomId":{"name":"rm_level_05","path":"rooms/rm_level_05/rm_level_05.yy",},},
+    {"roomId":{"name":"rm_level_08","path":"rooms/rm_level_08/rm_level_08.yy",},},
     {"roomId":{"name":"rm_level_06","path":"rooms/rm_level_06/rm_level_06.yy",},},
     {"roomId":{"name":"rm_level_07","path":"rooms/rm_level_07/rm_level_07.yy",},},
-    {"roomId":{"name":"rm_level_08","path":"rooms/rm_level_08/rm_level_08.yy",},},
+    {"roomId":{"name":"rm_level_05","path":"rooms/rm_level_05/rm_level_05.yy",},},
     {"roomId":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},},
     {"roomId":{"name":"rm_level_final","path":"rooms/rm_level_final/rm_level_final.yy",},},
   ],
